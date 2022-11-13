@@ -54,7 +54,7 @@ header{
 
 .log_in{
     background: url(../icon/log_in.svg) no-repeat top right;
-    width: 110px;
+    width: 125px;
     height: 45px;
     display: block;
     text-decoration: none;
@@ -64,6 +64,7 @@ header{
     display: flex;
     align-items: center;
     color: #000000;
+    margin-left: 20px;
 }
 
 .Log_in:hover{
@@ -173,14 +174,13 @@ header{
 }
 
 .btn{
-    padding-top: 30px;
     background-color: #02BAE8;
     color: #fff;
     width: 250px;
     height: 60px;
-    padding: 22px 0px;
+    font-size: large;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 800;
     margin-top: 42px;
     transition: all 0.5s ease;
     border-radius: 50px;
