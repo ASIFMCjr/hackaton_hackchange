@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Styrene A Web';
+    font-style: normal;
+    text-align: center;
+
+    
+}
+
+div, p, input, button, form, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1,  h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: 700;
+}
+
+p{
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 42px;
+}
+
+header{
+    background: #F2F7F9;
+    padding: 25px 80px 25px 80px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.offer{
+    display: flex;
+    align-items: center;
+}
+
+
+.name{
+    padding:0 30px 0 10px;
+    font-weight: 900;
+    font-size: 29px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.log_in{
+    background: url(../icon/log_in.svg) no-repeat top right;
+    width: 110px;
+    height: 45px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-weight: 700;
+    font-size: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.Log_in:hover{
+    color: #02BAE8;
+}
+
+.container_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title1{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-weight: 900;
+    font-size: 39px;
+    line-height: 50px;
+}
+
+.main_container{
+    background-image: url(../icon/test4.svg);
+    Height: 800px;
+}
+
+.slogan{
+    padding-top: 320px;
+    padding-bottom: 400px;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 50px;
+}
+
+.title2{
+    font-weight: 900;
+    font-size: 39px;
+    line-height: 50px;
+    color: #000000;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    background-color: #02BAE8;
+    width: auto;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.block{
+    width: 500px;
+    height: 235px;
+    left: 82px;
+    top: 1644px;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.title3{
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 47px;
+    color: #ffffff;
+    padding: 50px 0 25px 0;
+}
+
+.info{
+    flex: auto;
+}
+
+.coin{
+    padding: 25px 0 50px 0;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 42px;
+    color: #02BAE8;
+}
+
+.picture{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    padding: 10px 180px 0 300px;
+}
+
+.container_info{
+    background-color: #F2F7F9;
+    width: auto;
+    height: 330px;
+    padding-bottom: 100px;
+}
+
+.info{
+    flex-direction: column;
+}
+
+.parametres{
+    padding-top:50px ;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 54px;
+    align-items: center;
+}
+
+.btn{
+    padding-top: 30px;
+    background-color: #02BAE8;
+    color: #fff;
+    width: 250px;
+    height: 60px;
+    padding: 22px 0px;
+    text-decoration: none;
+    font-weight: 900;
+    margin-top: 42px;
+    transition: all 0.5s ease;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background: #1fc7f1;
+}
+
+footer{
+    background: #02BAE8;
+    width: auto;
+    height: 107px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.place{
+    height: 100px;
+    background: #fff;
+}
+
+.logo{
+    width: 264px;
+    height: 60px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contacts{
+    text-decoration: none;
+    display: flex;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+    color: #fff;
+    padding-right: 200px;
+}
