@@ -1,0 +1,48 @@
+.bg{
+	width:784px;
+  	height:554px;
+
+  	background-image: url(../Imj/svg/fon.svg);
+  	margin: 263px 0px 0px 568px;
+
+}
+
+.box{
+	width:345px;
+  	height:34px;
+  	margin: 35px 0px 0px 39px;
+  	border: 2px solid #02BAE8;
+}
+.box_email{
+
+}
+
+.box_login{
+
+}
+
+.box_pasword{
+
+}
+
+
+.in{
+	display: flex;
+	flex-direction: column;
+
+}
+.h{
+	font-family: 'Styrene A Web';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration-line: underline;
+	margin: 270px 0px 0px 39px;
+	color: #02BAE8;
+
+
+}
