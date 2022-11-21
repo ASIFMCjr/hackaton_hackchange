@@ -1,4 +1,5 @@
 # hackaton_hackchange
+Проект не доделан
 # Breaking bits
 
 Краткое описание продукта:
